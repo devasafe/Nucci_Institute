@@ -508,36 +508,7 @@ form button {
     <nav class="navbar-center">
       <ul>
         <li><a href="#" onclick="showSection('home')">Home</a></li>
-  /* Ícone do menu hambúrguer */
-  .navbar-burger {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: #C8A75D;
-    cursor: pointer;
-    margin-left: 10px;
-    z-index: 1001;
-  }
-  @media (max-width: 768px) {
-    .navbar-burger {
-      display: block;
-    }
-    .navbar-center ul {
-      display: none;
-    }
-    .navbar-center ul.active {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100vw;
-      background: #000;
-      padding: 10px 0;
-      z-index: 999;
-    }
-  }
+ 
 <script>
 // Navbar responsiva: abrir/fechar menu
 document.addEventListener('DOMContentLoaded', function() {
